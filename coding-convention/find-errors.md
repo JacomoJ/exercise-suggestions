@@ -31,30 +31,50 @@ Variable and Parameters:
 
 Structs
 
+```
   (define-struct blubb [r s])
+```
 
+```
   (define-struct BLUBB [r s])
+```
 
+```
   (define-struct BlUbB [r s])
+```
 
+```
   (define-struct Blubb [r s])
+```
 
 Functions
 
+```
   (define (some-funny-function r) (* 4 r))
+```
 
+```
   ; number -> number
   (define (some-funny-function r) (* 4 r))
+```
 
+```
   ; number->number
   (define (some-funny-function r) (* 4 r))
+```
 
+```
   ; some-funny-function: number --> number
   (define (some-funny-function r s) (* r s ))
+```
 
+```
   ; some-funny-function: number -> number
   (define (some-funny-function r s) (* r s ))
+```
 
+```
   ; some-funny-function: number string -> number
   (define (some-funny-function r s) (* r s ))
+```
 
