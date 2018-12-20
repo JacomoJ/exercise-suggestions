@@ -4,20 +4,30 @@ Find violations of the coding convention in the following code snippets!
 
 Variable and Parameters:
 
+```
   (define v_r 4)
   (define (plus x) (+ x v_r))
+```
 
+```
   (define var 4)
   (define (plus x) (+ x var))
+```
 
+```
   (define VAR 5)
   (define (plus X) (+ X var))
+```
 
+```
   (define Var 5)
   (define (plus X) (+ X var))
+```
 
+```
   (define VAR 5)
   (define (plus X) (set! VAR (+ X var)))
+```
 
 Structs
 
