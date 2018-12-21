@@ -24,3 +24,12 @@
   - Write type definitions to represent a graph.
   - Write a function that checks whether there is an edge from a vertex V1 to another V2.
   - Write a function that yields a list of vertices one can reach starting from a vertex V. Make sure that your function terminates.
+
+5. T9 (credit to Alessandro Giusti)
+
+Old cell phones had a system that allowed to type text using the 10 number keys. Each number held three to four letters. With multiple clicks one could iterate through the letters. 
+To simplify typing one could just type the number containing the letters and the word was then chosen from a dictionary.
+Imagine being given a dictionary in a csv format (each line a word). 
+Write data structures to read in that dictionary.
+Write functions, that given a list of words filters the list in a given position.
+Write utility function (booleans) that check whether a given letter is equal to one of letters associated with a given number.
