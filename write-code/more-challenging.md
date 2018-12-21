@@ -33,3 +33,7 @@ Imagine being given a dictionary in a csv format (each line a word).
 Write data structures to read in that dictionary.
 Write functions, that given a list of words filters the list in a given position.
 Write utility function (booleans) that check whether a given letter is equal to one of letters associated with a given number.
+
+6. Juggling Game
+
+Implement a juggling game with two "hands" (two sliding bars) that can be moved with S and F keys (J and L keys). Balls are caught on contact with the bars. With the D and K keys balls can be launched upwards (they pick up any sideways momentum from the bars).
