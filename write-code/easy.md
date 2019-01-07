@@ -15,7 +15,7 @@
   - Write a function that given a list of numbers and a list of color strings, returns a list of circles with the corresponding radius and color.
   - Write a function that given a list of images, returns a single image with the images in the list stacked on top of each other.
   - Write a function that given a list of images, returns a single image with the images in the list overlayed on each other with the first image at the bottom
-  and the last at the time.
+  and the last at the top.
 
 
 3. Audio player pt.1
