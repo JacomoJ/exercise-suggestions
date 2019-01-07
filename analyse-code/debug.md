@@ -2,6 +2,8 @@
 
 Debug the following code snippets. State whether the code breaks before running or during execution of the program.
 
+1)
+
 ```
 ; A Title is a String
 ; Interp: Title of a book
@@ -28,6 +30,8 @@ Debug the following code snippets. State whether the code breaks before running 
 (define (count-authors la) (cond [(equal? lb '()) 0]
                                  [else (+ 1 (count-authors (rest la))]
 ```
+
+2)
 ```
 ; Number -> Number 
 (define (some-function r s t) (cond [(equal? r s) t]
