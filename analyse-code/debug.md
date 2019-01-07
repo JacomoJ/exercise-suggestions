@@ -11,7 +11,7 @@ Debug the following code snippets. State whether the code breaks before running 
 ; An Author is a String
 ; Interp: Author of a book
 
-; Book is a (make-book title author publisher pages year)
+; A Book is a (make-book title author publisher pages year)
 ; where 
 ;       title is a Title
 ;       author is a Author
