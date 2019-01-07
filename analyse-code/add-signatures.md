@@ -30,7 +30,7 @@ Sometimes there is more than one possible signature.
 5)
 ```
 (define-struct some-struct [x y])
-  (define (a-funny-function s) (cond [(equal? '()) '()]
+  (define (a-funny-function s) (cond [(equal? s '()) '()]
                                 [else (cons (make-some-struct s P) (a-funny-function s))]))
 ```
 
