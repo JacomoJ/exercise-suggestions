@@ -27,14 +27,14 @@
 
 5) 
 ```
-; List<String> -> List<SomeStruct>
-; Purpose: Take a list of strings and, recursively, built a List<SomeStruct> from the strings in the argument and a constant P.
+; List<T> -> List<SomeStruct>
+; Purpose: Take a list of type T and, recursively, built a List<SomeStruct> from the strings in the argument and a constant P.
+; The Type T might be further restricted by the type of (some-struct-x ...).
 ```
 
-6) This is an abstraction. The types of the function f and the argument it takes are not further specified. We assume that `f` takes a Number and returns a Boolean. Then `xs` has to be a `List<Number>`.
-The output type could also be left unspecified.
+6) This is an abstraction. 
 ```
-; [Number -> Boolean] List<Number> -> List<Boolean>
-; Purpose: Recursively apply a given function to a List<Number> and return the results as a List<Boolean>
+; [A -> B] List<A> -> List<B>
+; Purpose: Recursively apply a given function to a List<A> and return the results as a List<B>
 ```
 

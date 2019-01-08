@@ -30,7 +30,7 @@ None of the structs have the required description.
 
 ## Functions
 
-All signatures have the wrong case. They have to contain types (in camel-case).
+*All signatures have the wrong case. They have to contain types (in camel-case).*
 
 1) There is no signature and no purpose statement.
 
