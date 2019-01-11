@@ -21,5 +21,5 @@
 3. Audio player pt.1
 
   - For an audio player you need to build a database of songs. Write a data structure for information about songs. Provide also correct type definitions if needed.
-    Songs have (at least) titles, artists, albums, and times.
+    Songs have (at least) titles, artists, albums, and length.
   - For 3 different fields write functions that allow changing the entry of the fields (as usual with purpose statement and signature).
